@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+
+<body class="bg-dark" data-bs-theme="dark">
+    <!-- Accordion Start -->
+    <div class="accordion container mt-5" id="accordionExample">
+        <h1 class="ps-1">Frequently Asked Questions</h1>
+        <div class="accordion-item mt-5">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    What is GitHub and how does it work?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    GitHub is the home for all developers—a platform where you can share code, contribute to open source
+                    projects, or even automate your workflow with tools like GitHub Actions and Packages. If you’re just
+                    getting started with GitHub, you may know us best as a place for version control and collaboration
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Why is GitHub so popular?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    GitHub is built by developers for developers, and we’re proud to be home to the world’s largest open
+                    source community. With 50 million developers and millions more open source projects, GitHub has
+                    become the go-to place to collaborate and build software together.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Do people use GitHub only for code?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Nope. Like we mentioned above, different people and teams use GitHub for different projects. While
+                    we got our start as a version control platform, GitHub is now used to manage teams, share resumes,
+                    find new projects, track work, and host discussions, just to name a few.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Accordion End -->
+    <!-- Services Start -->
+    <section class="container mb-4">
+        <div class="mt-5 pt-5 mb-5 w-100 text-lg-start text-center">
+            <h2 class="fs-1 fw-semibold pt-3 ps-1">My Services</h2>
+        </div>
+        <div class="services-card">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 mb-4 overflow-hidden ">
+                        <div class="bg-extra-dark rounded-1 shadow border-0 p-4">
+                            <div class="card-title text-success display-4 ms-2 mt-3 mb-3">
+                                <iconify-icon icon="devicon-plain:html5"></iconify-icon>
+                            </div>
+                            <div class="card-body p-2">
+                                <h5 class="card-title h4 fw-semibold text-light mb-3">Design Trends</h5>
+                                <p class="card-text text-secondary-emphasis">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipisicing
+                                    elit.</p>
+                            </div>
+                        </div>
+                        <div class="card-s w-100 bg-extra-dark"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 mb-4 overflow-hidden ">
+                        <div class="bg-extra-dark rounded-1 shadow border-0 p-4">
+                            <div class="card-title text-success display-4 ms-2 mt-3 mb-3">
+                                <iconify-icon icon="tabler:library-photo"></iconify-icon>
+                            </div>
+                            <div class="card-body p-2">
+                                <h5 class="card-title h4 fw-semibold text-light mb-3">FSD Design</h5>
+                                <p class="card-text text-secondary-emphasis">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipisicing
+                                    elit.</p>
+                            </div>
+                        </div>
+                        <div class="card-s w-100 bg-extra-dark"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 mb-4 overflow-hidden ">
+                        <div class="bg-extra-dark rounded-1 shadow border-0 p-4">
+                            <div class="card-title text-success display-4 ms-2 mt-3 mb-3">
+                                <iconify-icon icon="cib:ionic"></iconify-icon>
+                            </div>
+                            <div class="card-body p-2">
+                                <h5 class="card-title h4 fw-semibold text-light mb-3">Customer Support</h5>
+                                <p class="card-text text-secondary-emphasis">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipisicing
+                                    elit.</p>
+                            </div>
+                        </div>
+                        <div class="card-s w-100 bg-extra-dark"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 mb-md-0 mb-4 overflow-hidden ">
+                        <div class="bg-extra-dark rounded-1 shadow border-0 p-4">
+                            <div class="card-title text-success display-4 ms-2 mt-3 mb-3">
+                                <iconify-icon icon="brandico:wordpress"></iconify-icon>
+                            </div>
+                            <div class="card-body p-2">
+                                <h5 class="card-title h4 fw-semibold text-light mb-3">Web Development</h5>
+                                <p class="card-text text-secondary-emphasis">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipisicing
+                                    elit.</p>
+                            </div>
+                        </div>
+                        <div class="card-s w-100 bg-extra-dark"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 mb-md-0 mb-4 overflow-hidden ">
+                        <div class="bg-extra-dark rounded-1 shadow border-0 p-4">
+                            <div class="card-title text-success display-4 ms-2 mt-3 mb-3">
+                                <iconify-icon icon="bx:move"></iconify-icon>
+                            </div>
+                            <div class="card-body p-2">
+                                <h5 class="card-title h4 fw-semibold text-light mb-3">Full Responsive</h5>
+                                <p class="card-text text-secondary-emphasis">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipisicing
+                                    elit.</p>
+                            </div>
+                        </div>
+                        <div class="card-s w-100 bg-extra-dark"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 mb-md-0 mb-4 overflow-hidden ">
+                        <div class="bg-extra-dark rounded-1 shadow border-0 p-4">
+                            <div class="card-title text-success display-4 ms-2 mt-3 mb-3">
+                                <iconify-icon icon="ion:rocket-sharp"></iconify-icon>
+                            </div>
+                            <div class="card-body p-2">
+                                <h5 class="card-title h4 fw-semibold text-light mb-3">Branding</h5>
+                                <p class="card-text text-secondary-emphasis">Lorem ipsum dolor sit amet,
+                                    consectetur
+                                    adipisicing
+                                    elit.</p>
+                            </div>
+                        </div>
+                        <div class="card-s w-100 bg-extra-dark"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services End -->
+    <!-- Iconify-Icon JS -->
+    <script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/JS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
